@@ -14,10 +14,7 @@ class Flight
      */
     private $id;
 
-    /**
-     * @var string
-     */
-    private $departure;
+
 
     /**
      * @var string
@@ -50,28 +47,7 @@ class Flight
         return $this->id;
     }
 
-    /**
-     * Set departure
-     *
-     * @param string $departure
-     * @return Flight
-     */
-    public function setDeparture($departure)
-    {
-        $this->departure = $departure;
 
-        return $this;
-    }
-
-    /**
-     * Get departure
-     *
-     * @return string 
-     */
-    public function getDeparture()
-    {
-        return $this->departure;
-    }
 
     /**
      * Set arrival

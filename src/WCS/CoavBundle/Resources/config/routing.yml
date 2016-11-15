@@ -1,7 +1,3 @@
-wcs_coav_planemodel:
-    resource: "@WCSCoavBundle/Resources/config/routing/planemodel.yml"
-    prefix:   /planemodel
-
 wcs_coav_homepage:
     path:     /
     defaults: { _controller: WCSCoavBundle:Default:index }
@@ -18,6 +14,10 @@ wcs_coav_terrain:
         resource: "@WCSCoavBundle/Resources/config/routing/terrain.yml"
         prefix:   /terrain
 
- wcs_coav_user:
+wcs_coav_user:
         resource: "@WCSCoavBundle/Resources/config/routing/user.yml"
         prefix:   /user
+
+wcs_coav_planemodel:
+    resource: "@WCSCoavBundle/Resources/config/routing/planemodel.yml"
+    prefix:   /planemodel

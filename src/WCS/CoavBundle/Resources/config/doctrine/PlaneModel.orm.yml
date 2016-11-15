@@ -22,5 +22,8 @@ WCS\CoavBundle\Entity\PlaneModel:
         nbSeats:
             type: integer
             nullable: true
+        status:
+            type: integer
+            nullable: true
 
     lifecycleCallbacks: {  }
